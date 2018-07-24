@@ -1,6 +1,7 @@
 /* 
 Preliminary draw bot sketch - Etch-A-Sketch type functionality
 James Hosken
+July 2018
 */
 
 #include <Wire.h>
@@ -39,9 +40,6 @@ void setup() {
   pinMode(A1, INPUT);       //Extra Pot
   pinMode(A2, INPUT);       //Debug Control X
   pinMode(A3, INPUT);       //Debug Control Y
-
-
-  
 }
 
 void loop() {
